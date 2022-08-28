@@ -9,7 +9,7 @@ class WeatherApiClient {
 
     final queryParameter = {
       'q': location,
-      'appid': 'c5b3b5bedfc5c43ac2dd6825842229b4',
+      'appid': 'API-Token',
       'units': 'metric'
     };
     final uri = Uri.https(
